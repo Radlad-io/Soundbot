@@ -1,0 +1,16 @@
+{
+  "name": "soundbot",
+  "version": "1.0.0",
+  "description": "A discord soundboard generator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.3.1",
+    "discord.js-commando": "github:discordjs/Commando"
+  }
+}
